@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Latihan Intent</string>
+    <string-array name="prodi_array">
+        <item>Sistem Informasi</item>
+        <item>Teknik Informatika</item>
+        <item>Desain Komunikasi Visual</item>
+        <item>Teknik Industri</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Silahkan Mengisi Form di Bawah ini"
+        android:textSize="18dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Field Nama -->
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Field No telp -->
+    <EditText
+        android:id="@+id/no_telp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No telp"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Field Email -->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp"/>
+
+
+    <Spinner
+        android:id="@+id/list_prodi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- RelativeLayout untuk Tombol Daftar-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <!-- Tombol Daftar -->
+        <Button
+            android:id="@+id/btn_daftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar"
+            android:onClick="Daftar"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
